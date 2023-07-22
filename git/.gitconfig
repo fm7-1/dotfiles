@@ -1,0 +1,11 @@
+[user]
+	name = Fabricio Mera
+	email = 55803899+fm7-1@users.noreply.github.com
+[core]
+	editor = vim
+	hooksPath = /home/fmera/.githooks
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+	default = "simple"
