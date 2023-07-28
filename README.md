@@ -1,8 +1,8 @@
 # Fabricio's dotfiles
 
 ## Requirements
-git
-stow
+- git
+- stow
 
 ## Reference
 
