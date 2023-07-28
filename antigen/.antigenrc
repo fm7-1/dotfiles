@@ -1,0 +1,2 @@
+antigen use oh-my-zsh
+antigen apply
