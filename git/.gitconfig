@@ -4,6 +4,7 @@
 [core]
 	editor = vim
 	hooksPath = /home/fmera/.githooks
+	excludesfile = /home/fmera/.gitignore
 [init]
 	defaultBranch = main
 [push]
