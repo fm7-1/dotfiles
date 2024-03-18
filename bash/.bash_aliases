@@ -1,0 +1,5 @@
+alias gst='git status'
+alias gco='git checkout'
+alias gcm='git commit -m'
+alias gfp='git fetch --all && git pull'
+alias cat='batcat'
