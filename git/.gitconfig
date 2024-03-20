@@ -3,7 +3,7 @@
 	email = 55803899+fm7-1@users.noreply.github.com
 [core]
 	editor = vim
-	hooksPath = /home/fmera/.githooks
+	excludesFile = /home/fmera/.gitignore_global
 [init]
 	defaultBranch = main
 [push]
