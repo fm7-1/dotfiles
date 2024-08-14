@@ -1,0 +1,6 @@
+[kubernetes]
+format = 'on [⛵ $context](dimmed green) '
+disabled = false
+#contexts = [
+#  { context_pattern = "juvo-dev", style = "green", symbol = "" },
+#]
