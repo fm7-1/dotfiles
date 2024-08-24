@@ -6,3 +6,4 @@ alias gca='git commit --amend'
 alias cat='batcat'
 alias gci='git checkout $(git branch | fzf)'
 alias tma='tmux a -t $(tmux ls | fzf | cut -d ":" -f 1)'
+alias k="kubectl"
