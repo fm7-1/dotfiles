@@ -1,12 +1,13 @@
-[kubernetes]
-format = 'on [⛵ $context](dimmed green) '
-disabled = false
-#contexts = [
-#  { context_pattern = "juvo-dev", style = "green", symbol = "" },
-#]
+#[azure]
+#disabled = false
+#format = 'on [$symbol($subscription)]($style) '
+#symbol = '󰠅 '
+#style = 'blue bold'
 
-[azure]
+[kubernetes]
 disabled = false
-format = 'on [$symbol($subscription)]($style) '
-symbol = '󰠅 '
-style = 'blue bold'
+contexts = [
+  { context_pattern = "*juvo-dev*", style = "green" },
+  { context_pattern = "*juvo-ilab-prod*", style = "red bold" },
+]
+format = '[$symbol$context( \($namespace\))]($style) in '
